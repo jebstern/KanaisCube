@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">KanaisCube Manager</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="nav_item_home">Etusivu</string>
+    <string name="nav_item_days">Reissupäivät</string>
+    <string name="nav_item_sunset">Sunset</string>
+
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_days</item>
+        <item>@string/nav_item_sunset</item>
+    </string-array>
+
+    <string name="title_days">Reissupäivät</string>
+    <string name="title_sunset">Sunset</string>
+    <string name="title_home">Etusivu</string>
+
+    <string-array name="displayModeText">
+        <item>Cubed and non-cubed</item>
+        <item>Only cubed</item>
+        <item>Only non-cubed</item>
+    </string-array>
+
+    <string-array name="displayModeValues">
+        <item>all</item>
+        <item>cubed</item>
+        <item>noncubed</item>
+    </string-array>
+
+    <string-array name="displayItemsText">
+        <item>All items</item>
+        <item>Weapons only</item>
+        <item>Armor only</item>
+        <item>Jewelry only</item>
+    </string-array>
+
+    <string-array name="displayItemsValues">
+        <item>all</item>
+        <item>weapons</item>
+        <item>armor</item>
+        <item>jewelry</item>
+    </string-array>
+
+
+
+</resources>

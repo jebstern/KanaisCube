@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:background="?attr/colorPrimary"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:weightSum="1"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="0.5"
+        android:layout_height="wrap_content"
+        android:text="Kanai's Cube Helper"
+        android:textSize="24sp" />
+
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_weight="0.5"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/cube"
+        android:id="@+id/imageView" />
+
+
+</LinearLayout>

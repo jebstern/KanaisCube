@@ -1,0 +1,37 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Settings">
+
+        <ListPreference
+            android:defaultValue="all"
+            android:dialogTitle="Show all, cubed or non-cubed"
+            android:entries="@array/displayModeText"
+            android:entryValues="@array/displayModeValues"
+            android:key="displaymode"
+            android:summary="%s"
+            android:title="Show all, cubed or non-cubed" />
+
+
+        <ListPreference
+            android:defaultValue="all"
+            android:dialogTitle="Show by item type"
+            android:entries="@array/displayItemsText"
+            android:entryValues="@array/displayItemsValues"
+            android:key="displayitems"
+            android:summary="%s"
+            android:title="Show all, armor, weapons or jewelry" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Reset all cubed items">
+
+        <com.jebstern.kanaiscube.OptionDialogPreference
+            android:dialogMessage="Are you sure you wish to reset all cubed items? This action cannot be undone!"
+            android:key="resetdata"
+            android:negativeButtonText="Cancel"
+            android:positiveButtonText="OK, RESET"
+            android:summary="Reset all cubed items (to non-cubed)"
+            android:title="Reset cubed items" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

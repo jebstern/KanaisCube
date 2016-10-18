@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.jebstern.roadtripping.MainActivity">
+
+    <group
+        android:id="@+id/grp1"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/item_season"
+            android:checked="false"
+            android:icon="@drawable/leaf"
+            android:title="Season" />
+
+        <item
+            android:id="@+id/item_normal"
+            android:checked="false"
+            android:icon="@drawable/sunglasses"
+            android:title="Normal" />
+
+
+        <item
+            android:id="@+id/item_progress_season"
+            android:icon="@drawable/progressbar"
+            android:title="Progress - Season" />
+        <item
+            android:id="@+id/item_progress_normal"
+            android:icon="@drawable/progressbar"
+            android:title="Progress - Normal" />
+
+
+        <item
+            android:id="@+id/item_settings"
+            android:checked="false"
+            android:icon="@drawable/settings"
+            android:title="Settings" />
+
+
+    </group>
+
+</menu>
